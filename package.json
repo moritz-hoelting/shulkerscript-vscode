@@ -7,7 +7,8 @@
     "vscode": "^1.88.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Snippets"
   ],
   "contributes": {
     "languages": [{
@@ -20,6 +21,12 @@
       "language": "shulkerscript",
       "scopeName": "source.shulkerscript",
       "path": "./syntaxes/shulkerscript.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+      {
+        "language": "shulkerscript",
+        "path": "./snippets.json"
+      }
+    ]
   }
 }

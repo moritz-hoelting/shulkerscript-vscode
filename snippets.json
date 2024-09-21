@@ -1,0 +1,205 @@
+{
+    "Test": {
+        "Namespace": {
+            "prefix": ["namespace"],
+            "body": [
+                "namespace \"${1:namespace}\"",
+                "$0"
+            ],
+            "description": "Create a namespace"
+        },
+        "Function": {
+            "prefix": ["fn"],
+            "body": [
+                "fn ${1:functionName}() {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a function"
+        },
+        "Public Function": {
+            "prefix": ["pub"],
+            "body": [
+                "pub fn ${1:functionName}() {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a public function"
+        },
+        "Function (onTick)": {
+            "prefix": ["ontick"],
+            "body": [
+                "#[tick]",
+                "fn ${1:functionName}() {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a function that runs every tick"
+        },
+        "Function (onLoad)": {
+            "prefix": ["onload"],
+            "body": [
+                "#[tloadick]",
+                "fn ${1:functionName}() {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a function that runs on load"
+        },
+        "Tag": {
+            "prefix": ["tag"],
+            "body": [
+                "tag \"${1:tagName}\" of \"${2:tagType}\" [",
+                "\t$0",
+                "]"
+            ],
+            "description": "Create a tag"
+        },
+        "Function tag": {
+            "prefix": ["tagfn"],
+            "body": [
+                "tag \"${1:tagName}\" [",
+                "\t$0",
+                "]"
+            ],
+            "description": "Create a function tag"
+        },
+        "Align": {
+            "prefix": ["align"],
+            "body": [
+                "align (\"${1:axis}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an align block"
+        },
+        "Anchored": {
+            "prefix": ["anchored"],
+            "body": [
+                "anchored (\"${1:anchor}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an anchored block"
+        },
+        "As": {
+            "prefix": ["as"],
+            "body": [
+                "as (\"${1:selector}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an as block"
+        },
+        "At": {
+            "prefix": ["at"],
+            "body": [
+                "at (\"${1:location}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an at block"
+        },
+        "AsAt": {
+            "prefix": ["asat"],
+            "body": [
+                "asat (\"${1:selector}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an asat block"
+        },
+        "Facing": {
+            "prefix": ["facing"],
+            "body": [
+                "facing (\"${1:target}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a facing block"
+        },
+        "In": {
+            "prefix": ["in"],
+            "body": [
+                "in (\"${1:dimension}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an in block"
+        },
+        "If": {
+            "prefix": ["if"],
+            "body": [
+                "if (\"${1:condition}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an if block"
+        },
+        "Unless": {
+            "prefix": ["unless"],
+            "body": [
+                "if (!\"${1:condition}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an if block with inverted condition"
+        },
+        "IfElse": {
+            "prefix": ["ifelse"],
+            "body": [
+                "if (\"${1:condition}\") {",
+                "\t$0",
+                "} else {",
+                "\t",
+                "}"
+            ],
+            "description": "Create an if-else block"
+        },
+        "On": {
+            "prefix": ["on"],
+            "body": [
+                "on (\"${1:target}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create an on block"
+        },
+        "Positioned": {
+            "prefix": ["positioned"],
+            "body": [
+                "positioned (\"${1:location}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a positioned block"
+        },
+        "Rotated": {
+            "prefix": ["rotated"],
+            "body": [
+                "rotated (\"${1:rotation}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a rotated block"
+        },
+        "Store": {
+            "prefix": ["store"],
+            "body": [
+                "store (\"${1:result}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a store block"
+        },
+        "Summon": {
+            "prefix": ["summon"],
+            "body": [
+                "summon (\"${1:entity}\") {",
+                "\t$0",
+                "}"
+            ],
+            "description": "Create a summon block"
+        }
+    }
+}
