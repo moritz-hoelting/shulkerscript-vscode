@@ -1,0 +1,25 @@
+{
+  "name": "shulkerscript-lang",
+  "displayName": "ShulkerScript Language Support",
+  "description": "Provide syntax highlighting for the ShulkerScript language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "shulkerscript",
+      "aliases": ["ShulkerScript", "shulkerscript"],
+      "extensions": [".shu"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "shulkerscript",
+      "scopeName": "source.shulkerscript",
+      "path": "./syntaxes/shulkerscript.tmLanguage.json"
+    }]
+  }
+}
