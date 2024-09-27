@@ -3,7 +3,7 @@
         "Namespace": {
             "prefix": ["namespace"],
             "body": [
-                "namespace \"${1:namespace}\"",
+                "namespace \"${1:namespace}\";",
                 "$0"
             ],
             "description": "Create a namespace"
