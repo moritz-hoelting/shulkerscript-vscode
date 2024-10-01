@@ -1,6 +1,6 @@
 # Shulkerscript VSCode Extension
 
-This extension provides language support for the **Shulkerscript** language, offering a smoother development experience in Visual Studio Code.
+This extension provides language support for the [Shulkerscript language](https://shulkerscript.hoelting.dev), offering a smoother development experience in Visual Studio Code.
 
 ## Features
 - **Syntax Highlighting**: Clear and intuitive syntax highlighting for Shulkerscript files.
