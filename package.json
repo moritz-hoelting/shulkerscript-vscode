@@ -1,8 +1,20 @@
 {
   "name": "shulkerscript-lang",
-  "displayName": "Shulkerscript Language Support",
+  "displayName": "Shulkerscript Syntax Highlighting",
   "description": "Provide syntax highlighting for the Shulkerscript language",
   "version": "0.0.1",
+  "publisher": "moritz-hoelting",
+  "author": {
+    "name": "Moritz Hölting",
+    "email": "moritz@hoelting.dev",
+    "url": "https://hoelting.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://shulkerscript.hoelting.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moritz-hoelting/shulkerscript-vscode"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
